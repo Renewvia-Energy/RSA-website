@@ -7,7 +7,7 @@
 
 	<!-- SEO Description -->
 	<meta name="author" content="Nicholas S. Selby">
-    <meta name="description" content="Renewvia Solar Africa builds and operates solar mini-grids across Africa. Proven to quadruple community income with 24 operational projects serving 40,000+ people. B Corp certified clean energy solutions for rural communities and commercial businesses.">
+	<meta name="description" content="Renewvia Solar Africa builds and operates solar mini-grids across Africa. Proven to quadruple community income with 24 operational projects serving 40,000+ people. B Corp certified clean energy solutions for rural communities and commercial businesses.">
 	<link rel="canonical" href="https://Renewvia-Energy.github.io/RSA-website">
 
 	<!-- Open Graph Tags -->
@@ -27,39 +27,23 @@
 
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/hamburger.css">
 </head>
 <body>
-	<!-- Header -->
 	<header>
-		<div class="container">
-			<div class="header-content">
-				<div class="logo"><img src="images/logo-black.png" alt="Renewvia Solar Africa logo"></div>
-				<nav>
-					<ul>
-						<li><a href="#impact">Our Impact</a></li>
-						<li><a href="#solutions">Solutions</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#news">News</a></li>
-					</ul>
-				</nav>
-				<div class="hamburger" onclick="toggleMenu()">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-				<a href="#contact" class="cta-button">Partner With Us</a>
-			</div>
-			<div class="nav-menu" id="navMenu">
-				<ul>
-					<li><a href="#impact" onclick="closeMenu()">Our Impact</a></li>
-					<li><a href="#solutions" onclick="closeMenu()">Solutions</a></li>
-					<li><a href="#about" onclick="closeMenu()">About</a></li>
-					<li><a href="#news" onclick="closeMenu()">News</a></li>
-				</ul>
-				<a rel="noopener" href="mailto:info@renewvia.com?subject=Partnership%20Inquiry&body=Dear%20Renewvia%20Team%2C%0A%0AI%20am%20interested%20in%20exploring%20partnership%20opportunities.%0A%0AOrganization%3A%0AInterest%20Area%3A%0APreferred%20Contact%20Method%3A%0A%0AThank%20you" class="cta-button">Partner With Us</a>
-			</div>
-		</div>
-	</header>
+		<div class="logo"><a href="index.html"><img src="images/logo-black.png" alt="Renewvia Solar Africa logo"></a></div>
+		<input id="menu-toggle" type="checkbox">
+		<label class='menu-button-container' for="menu-toggle">
+			<span class='menu-button'></span>
+		</label>
+		<ul class="menu">
+			<li><a href="index.html#impact">Our Impact</a></li>
+			<li><a href="index.html#solutions">Solutions</a></li>
+			<li><a href="index.html#about">About</a></li>
+			<li><a href="index.html#news">News</a></li>
+			<li><a rel="noopener" href="mailto:info@renewvia.com?subject=Partnership%20Inquiry&body=Dear%20Renewvia%20Team%2C%0A%0AI%20am%20interested%20in%20exploring%20partnership%20opportunities.%0A%0AOrganization%3A%0AInterest%20Area%3A%0APreferred%20Contact%20Method%3A%0A%0AThank%20you" class="cta-button">Partner With Us</a></li>
+		</ul>
+  	</header>
 
 	<!-- Hero Section -->
 	<section class="hero">
@@ -192,7 +176,7 @@
 						<li>Proven scalability across diverse markets</li>
 						<li>Commercial-grade reliability and performance</li>
 					</ul>
-					<a href="#" class="cta-button">Explore Solutions</a>
+					<a href="solutions.html" class="cta-button">Explore Solutions</a>
 				</div>
 			</div>
 		</div>
@@ -296,10 +280,9 @@
 				</div>
 				<div class="footer-section">
 					<h4>Solutions</h4>
-					<a href="#">Rural Mini-grids</a><br>
-					<a href="#">Commercial & Industrial Solar</a><br>
-					<a href="#">Refugee Settlement Power</a><br>
-					<a href="#">Carbon Asset Platform</a>
+					<a href="solutions.html#minigrids">Rural Mini-grids</a><br>
+					<a href="solutions.html#commercial">Commercial & Industrial Solar</a><br>
+					<a rel="external" target="_blank" href="https://www.r-recs.com/">Carbon Asset Platform</a>
 				</div>
 			</div>
 		</div>
