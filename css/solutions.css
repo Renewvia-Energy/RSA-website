@@ -1,4 +1,4 @@
-/* Hero Section */
+/* #region Hero Section */
 .solutions-hero {
 	background: linear-gradient(135deg, var(--primary-blue) 0%, #1E40AF 100%);
 	color: var(--white);
@@ -19,8 +19,9 @@
 	max-width: 800px;
 	margin: 0 auto;
 }
+/* #endregion */
 
-/* Breadcrumb */
+/* #region Breadcrumb */
 .breadcrumb {
 	background: var(--light-gray);
 	padding: 1rem 0;
@@ -39,8 +40,9 @@
 	color: var(--text-secondary);
 	margin: 0 0.5rem;
 }
+/* #endregion */
 
-/* Solutions Overview */
+/* #region Solutions Overview */
 .solutions-overview {
 	padding: 4rem 0;
 }
@@ -88,8 +90,9 @@
 	color: var(--text-secondary);
 	margin-bottom: 1.5rem;
 }
+/* #endregion */
 
-/* Solution Details */
+/* #region Solution Details */
 .solution-detail {
 	padding: 4rem 0;
 }
@@ -195,8 +198,9 @@
 	font-size: 0.9rem;
 	border: 2px dashed var(--border-color);
 }
+/* #endregion */
 
-/* Service Models Section */
+/* #region Service Models Section */
 .service-models {
 	background: var(--light-blue);
 	padding: 3rem;
@@ -253,8 +257,9 @@
 	position: absolute;
 	left: 0;
 }
+/* #endregion */
 
-/* Contact Section */
+/* #region Contact Section */
 .contact-section {
 	background: linear-gradient(135deg, var(--primary-orange) 0%, var(--secondary-orange) 100%);
 	color: var(--white);
@@ -294,6 +299,7 @@
 	transform: translateY(-2px);
 	box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
+/* #endregion */
 
 /* Responsive Design */
 @media (max-width: 910px) {
