@@ -277,6 +277,13 @@
 }
 /* #endregion */
 
+/* #region DREAM */
+#dream img {
+	margin: auto;
+	display: block;
+}
+/* #endregion */
+
 /* #region Contact Section */
 .contact-section {
 	background: linear-gradient(135deg, var(--primary-orange) 0%, var(--secondary-orange) 100%);
