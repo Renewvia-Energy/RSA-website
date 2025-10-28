@@ -5,7 +5,7 @@
 	background: linear-gradient(135deg, var(--primary-blue) 0%, #1E40AF 100%);
 	color: var(--white);
 	padding: 8rem 0 4rem;
-	margin-top: 80px;
+	margin-top: 5rem;
 	text-align: center;
 	position: relative;
 	overflow: hidden;
@@ -36,7 +36,7 @@
 .page-hero p {
 	font-size: 1.3rem;
 	opacity: 0.9;
-	max-width: 800px;
+	max-width: 50rem;
 	margin: 0 auto;
 }
 
@@ -69,7 +69,7 @@
 	text-align: center;
 	color: var(--text-secondary);
 	font-size: 1.1rem;
-	max-width: 700px;
+	max-width: 45rem;
 	margin: -1rem auto 3rem;
 }
 
@@ -103,8 +103,8 @@
 
 .ceo-feature .team-member-photo {
 	flex-shrink: 0;
-	width: 250px;
-	height: 250px;
+	width: 16rem;
+	height: 16rem;
 }
 
 .ceo-info {
@@ -146,7 +146,8 @@
 	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 	transition: all 0.3s ease;
 	width: calc(33.333% - 1.4rem);
-	min-width: 280px;
+	max-width: 90%;
+	min-width: 12rem;
 	border-top: 4px solid var(--primary-orange);
     text-decoration: none;
 }
@@ -156,16 +157,39 @@
 	box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
-/* Field Staff Grid - 4 columns */
-.field-grid .team-member {
-	width: calc(25% - 1.5rem);
-	min-width: 220px;
+/* Country Operations */
+.country-section .team-grid {
+	gap: 1.5rem;
 }
+.country-section .team-member {
+	width: 15rem;
+}
+.country-section .team-member-photo {
+	height: 15rem;
+}
+
+/* Field Staff Grid - 8 columns */
+.field-grid {
+	gap: 1rem;
+}
+.field-grid .team-member {
+	width: 12rem;
+}
+.field-grid .team-member-photo {
+	height: 12rem;
+}
+.field-grid .team-member-info h4 {
+	font-size: 1rem;
+}
+.field-grid .team-member-info .title {
+	font-size: 0.8rem;
+}
+
 
 /* Team Member Photo */
 .team-member-photo {
 	width: 100%;
-	height: 300px;
+	height: 22rem;
 	overflow: hidden;
 	background: var(--light-gray);
 	display: flex;
@@ -294,10 +318,6 @@
 
 	.team-member-photo {
 		height: 250px;
-	}
-
-	.field-grid .team-member {
-		width: 100%;
 	}
 
 	.section-intro {
