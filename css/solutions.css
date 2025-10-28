@@ -114,6 +114,10 @@
 	padding: 2rem;
 }
 
+.detail-text {
+	width: 50%;
+}
+
 .detail-text h2 {
 	font-size: 2.5rem;
 	margin-bottom: 1.5rem;
@@ -188,9 +192,16 @@
 }
 
 .image-gallery {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
 	gap: 1rem;
+	width: 100%;
+}
+.image-gallery img {
+	width: 16rem;
+	border-radius: 10px;
+	border-left: 4px solid var(--primary-orange);
 }
 
 .gallery-item {
@@ -211,7 +222,8 @@
 	background: var(--light-blue);
 	padding: 3rem;
 	border-radius: 15px;
-	margin: 2rem 0;
+	margin: 2rem 5%;
+	width: 40%;
 }
 
 .service-models h3 {
