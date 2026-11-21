@@ -10,6 +10,7 @@
 	--light-green: #E8F5E8;
 	--primary-blue: #1E3A8A;
 	--light-blue: #EFF6FF;
+	--hero-bg: linear-gradient(120deg, rgba(31, 20, 10, 0.88) 0%, rgba(60, 35, 15, 0.72) 45%, rgba(229, 90, 43, 0.45) 100%), url('../images/hero-offgrid.jpg') center 60% / cover no-repeat;
 	--dark-gray: #1F2937;
 	--medium-gray: #6B7280;
 	--light-gray: #F3F4F6;
@@ -109,7 +110,7 @@ ul.menu li:last-child {
 
 /* #region Hero Section */
 .hero {
-	background: linear-gradient(135deg, var(--primary-blue) 0%, #1E40AF 100%);
+	background: var(--hero-bg);
 	color: var(--white);
 	padding: 8rem 0 4rem;
 	margin-top: 80px;
@@ -124,7 +125,7 @@ ul.menu li:last-child {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+	background: none;
 }
 
 .hero-content {
