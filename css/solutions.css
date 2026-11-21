@@ -1,6 +1,6 @@
 /* #region Hero Section */
 .solutions-hero {
-	background: linear-gradient(135deg, var(--primary-blue) 0%, #1E40AF 100%);
+	background: var(--hero-bg);
 	color: var(--white);
 	padding: 8rem 0 4rem;
 	margin-top: 80px;
