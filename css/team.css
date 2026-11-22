@@ -239,6 +239,18 @@
 	margin: 0;
 }
 
+/* Corporate Leadership: equal cards with short bios */
+.leadership-grid {
+	align-items: stretch;
+}
+
+.leadership-grid .team-member-info .bio {
+	margin-top: 1rem;
+	color: var(--text-secondary);
+	font-size: 0.9rem;
+	line-height: 1.6;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
 	.team-member {
